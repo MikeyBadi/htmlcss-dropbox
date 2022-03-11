@@ -160,7 +160,7 @@ main, .yellow{
 /* DROPBOX BUSINESS */
 
 .drop-bus{
-  height: 680px;
+  height: 100%;
 }
 
 /* brands */
@@ -207,4 +207,25 @@ main, .yellow{
 .free-txt section{
   float: left;
   width: 40%;
+}
+
+/* FAQ */
+
+.faq{
+  width: 100%;
+  height: 600px;
+  padding: 130px 250px;
+}
+
+.faq h3{
+  padding-bottom: 50px;
+}
+
+.faq h4{
+  padding: 20px 0;
+  border-top: 1px solid grey;
+}
+.faq .last{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
