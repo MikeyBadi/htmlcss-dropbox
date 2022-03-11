@@ -105,3 +105,35 @@ main{
   height: 230px;
   background-color: rgba(255, 247, 0, 0.3);
 }
+
+.ent-bttn h3{
+  float: left;
+}
+.ent-bttn button{
+  float: right;
+}
+/* FIND A PARTNER */
+
+.cont-part{
+  /* height: 630px; */
+  width: 100%;
+  background-color: rgba(255, 247, 0, 0.3)
+}
+
+.img-part{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.img-part img{
+  width: 100%;
+}
+
+.txt-part{
+  width: 48%;
+  height: 100%;
+  background-color: rgba(255, 247, 0, 0.3);
+  float: left;
+  padding-top: 50px;
+}
