@@ -156,3 +156,36 @@ main, .yellow{
 .card-img img{
   width: 100%;
 }
+
+/* DROPBOX BUSINESS */
+
+.drop-bus{
+  height: 680px;
+}
+
+/* brands */
+.brands{
+  height: 465px;
+  width: 100%;
+}
+
+.brands-right{
+  float: left;
+  height: 100%;
+  width: 25%;
+}
+
+.brand-sqr{
+  float: left;
+  background-color: aqua;
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+}
+
+.brand-info{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: brown;
+}
