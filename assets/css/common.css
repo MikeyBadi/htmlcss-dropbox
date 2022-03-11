@@ -9,3 +9,27 @@
   display: table;
   clear: both;
 }
+
+.sctn{
+  padding-top: 150px;
+}
+
+.container{
+  margin: 0 10%
+}
+
+.radio{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+main .plans-crd .fact-plans span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
