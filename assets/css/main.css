@@ -2,8 +2,22 @@
   MAIN
 */
 /* PLANS */
+
+
+.title-fact{
+  padding-top: 70px;
+}
+.title-plans {
+  padding-bottom: 50px;
+}
+
 .fact-plans{
+  padding-bottom: 30px;
+}
+.fact-plans div{
   cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .radio{
@@ -20,7 +34,7 @@
 }
 .unsel{
   border: 1px solid #D0D0D3;
-  margin-left: 20px;
+
 }
 .plans-crd{
   height: 100%;
@@ -30,7 +44,7 @@
   float: left;
   height: 100%;
   width: 30%;
-  margin-right: calc((100% - 90%) / 2);
+  margin-right: 5%;
 }
 .third{
   margin-right: 0;
@@ -54,7 +68,6 @@
 }
 
 .pln-sel h3, .pln-enter h3{
-  font-size: 25px;
   padding-bottom: 22px;
 }
 
@@ -129,4 +142,33 @@ li:before {
   width: 30%;
 }
 
+/* FIND PARTNER */
+.cont-part{
+  width: 100%;
+
+}
+
+.img-part{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.img-part img{
+  width: 100%;
+}
+
+.txt-part{
+  width: 48%;
+  height: 100%;
+  float: left;
+  padding-top: 50px;
+}
+.txt-part h3, .txt-part p{
+  padding-bottom: 30px;
+}
+.txt-part p{
+  font-size: 17px;
+
+}
 

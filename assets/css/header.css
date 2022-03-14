@@ -73,22 +73,3 @@
 .fa-arrow-down{
   font-size: 35px;
 }
-
-/* MAIN */
-
-/* plans */
-
-.title-fact{
-  padding-top: 70px;
-}
-.title-plans {
-  padding-bottom: 50px;
-}
-
-.fact-plans{
-  padding-bottom: 30px;
-}
-.pln-sel a{
-  text-decoration: underline;
-  color: #005AFE;
-}

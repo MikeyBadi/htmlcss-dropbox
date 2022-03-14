@@ -18,15 +18,6 @@
   margin: 0 10%
 }
 
-.radio{
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
 
 main .plans-crd .fact-plans span{
   display: inline-block;
@@ -38,11 +29,25 @@ main .plans-crd .fact-plans span{
   padding: 20px;
 }
 
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+}
+
 a{
   text-decoration: none;
   color: black;
 }
 
+.li-se{
+  text-decoration: underline;
+  color: #005AFE;
+}
+
+/* button */
 .bttn{
   border: none;
 }
@@ -50,6 +55,12 @@ a{
 .blue{
   background-color: #0161FF;
   color: white;
+}
+
+.white{
+  border: 1px solid black;
+  background-color: white;
+  color: black;
 }
 
 .small{
@@ -63,6 +74,8 @@ a{
 .full-cont{
   width: 100%;
 }
+
+
 
 .block{
   display: block;
