@@ -51,6 +51,25 @@
 
 }
 
+/* toggle menu */
+#menu li{
+  background-color: white;
+  border-bottom: 1.5px solid black;
+}
+#menu li a{
+  padding: 0;
+}
+
+#menu{
+  display: none;
+  width: 100px;
+}
+#menu-toggle:hover #menu{
+  display: block;
+
+}
+
+
 /* JUMBOTRON */
 
 .jumbotron{
