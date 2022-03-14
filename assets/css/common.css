@@ -17,7 +17,23 @@
 .container{
   margin: 0 10%
 }
+/* small line */
+.lil-line-smll {
+  position: relative;
+  z-index : 1;
+  margin: 20px auto 0;
+  padding-bottom: 20px;
+}
 
+.lil-line-smll:before {
+  content : "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 5px;
+  width: 50px;
+  border-top:1px solid #D0D0D3;
+}
 
 main .plans-crd .fact-plans span{
   display: inline-block;

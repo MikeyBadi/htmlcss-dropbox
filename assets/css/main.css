@@ -95,23 +95,6 @@
 }
 
 
-.lil-line-smll {
-  position: relative;
-  z-index : 1;
-  margin: 20px auto 0;
-  padding-bottom: 20px;
-}
-
-.lil-line-smll:before {
-  content : "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 5px;
-  width: 15%;
-  border-top:1px solid #D0D0D3;
-}
-
 .pln-pnts{
   list-style: none;
   padding: 20px;
@@ -172,3 +155,231 @@ li:before {
 
 }
 
+/* OPERATIONS */
+.cards h2{
+  padding-bottom: 80px;
+}
+
+.card{
+  width: 30%;
+  padding-bottom: 100px;
+}
+
+
+.card-img img{
+  width: 100%;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+/* DROPBOX BUSINESS */
+.drop-bus{
+  height: 100%;
+}
+
+.dbb-txt h2{
+  line-height: 50px;
+  width: 33%;
+  margin: 30px 0;
+}
+
+/* brands */
+.brands{
+  width: 100%;
+  min-height: 50%;
+  background-color: #F5F5F5;
+  margin-top: 50px;
+
+}
+
+.brands-right{
+  float: left;
+  height: 100%;
+  width: 30%;
+}
+
+.brand-sqr{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+.brand-sqr::after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.brand-logo{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20%;
+  filter: invert();
+}
+
+.green{
+ background-color: #A2D39B;
+}
+.drkred{
+  background-color: #62092B;
+}
+
+.turq{
+  background-color: #0093CE;
+}
+
+.lgtred{
+  background-color: #FF1D1C;
+}
+
+.red{
+  background-color: #D50020;
+}
+
+.azure{
+ background-color: #B4D0E7;
+}
+
+.blus{
+  background-color: #0D2481;
+}
+
+.yellow{
+ background-color: #FFD830;
+}
+
+#lat{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  padding: 20%;
+  margin-top: 25%;
+}
+
+.brand-info img{
+  width: 120px;
+}
+.brand-info{
+  float: left;
+  width: 40%;
+  padding: 3% 3% ;
+  overflow-y: auto;
+  height: 25vw;
+}
+
+/* free tryal after brands */
+.free-try{
+  height: 360px;
+  padding: 50% auto;
+  background-color: #B4D0E7;
+}
+
+.free-txt h2{
+  float: left;
+  width: 23%;
+  color: #5A2756;
+}
+
+.free-txt section{
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+
+.free-txt button{
+  padding: 10px 60px;
+  background-color: white;
+  color: black;
+}
+
+/* FAQ */
+
+.faq{
+  width: 100%;
+  height: 600px;
+  padding: 130px 250px;
+}
+
+
+.faq i{
+  float: right;
+  width: 10%;
+}
+.faq h4{
+  float: left;
+  width: 90%;
+  height: auto;
+}
+
+.faq div{
+  padding: 20px 0;
+  border-top: 1px solid grey;
+}
+.faq .last{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+/* 
+  FOOTER
+*/
+footer{
+  background-color: black;
+  padding-top: 81px;
+}
+
+/* info */
+
+.col{
+  float: left;
+  height: 250px;
+  margin-bottom: 40px;
+
+}
+
+.col-sec{
+  width: 20%;
+}
+.col-sec a{
+  display: block;
+  color: white;
+}
+
+/* text style footer */
+footer h4{
+  color: #7189DA;
+}
+.col-left h4{
+padding-right: 30px;
+}
+
+/* small collumns */
+
+footer section h4{
+  font-size: 13px;
+}
+
+/* last part of footer */
+
+
+.lil-line {
+  width   : 200px;
+  height  : 50px;   
+  position: relative;
+  z-index : 1;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+
+.lil-line:before {
+  content : "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 5px;
+  width: 30%;
+  border-top:1px solid #726E97;
+}
