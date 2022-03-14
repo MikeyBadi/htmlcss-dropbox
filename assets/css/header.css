@@ -35,16 +35,12 @@
 .jumbo-txt{
   float: left;
   width: 30%;
-  margin-top: 50px;
 }
 
 
 .jumbo-img{
   float: right;
-  width: 65%;
-  height: 450px;
-
-  margin-top: 50px;
+  width: 900px;
 }
 
 .jumbo-img img{
