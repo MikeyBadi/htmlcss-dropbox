@@ -212,10 +212,10 @@
 /* 
   FOOTER
 */
-footer{
+/* footer{
   background-color: black;
   padding-top: 81px;
-}
+} */
 
 /* info */
 
@@ -234,22 +234,16 @@ footer{
 } */
 
 /* text style footer */
-footer h4{
+/* footer h4{
   color: #7189DA;
 }
 .col-left h4{
 padding-right: 30px;
-}
-
-/* small collumns */
-
-footer section h4{
-  font-size: 13px;
-}
+} */
 
 /* last part of footer */
 
-
+/* 
 .lil-line {
   width   : 200px;
   height  : 50px;   
@@ -267,4 +261,4 @@ footer section h4{
   height: 5px;
   width: 30%;
   border-top:1px solid #726E97;
-}
+} */
