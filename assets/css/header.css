@@ -1,0 +1,94 @@
+/* 
+  MAIN
+*/
+
+/* NAVBAR */
+.navbar{
+  width: 100%;
+  position: fixed;
+  background: white;
+  z-index: 999;
+}
+.left-nav-side{
+  float: left;
+}
+.right-nav-side{
+  float: right;
+  height: 65px;
+}
+.nav-elmnt{
+  padding-right: 30px; 
+  text-align: center;
+  vertical-align: middle; 
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+  padding: 0 100px;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 65px;
+}
+
+.jumbo-txt{
+  float: left;
+  width: 30%;
+  margin-top: 50px;
+}
+
+
+.jumbo-img{
+  float: right;
+  width: 65%;
+  height: 450px;
+
+  margin-top: 50px;
+}
+
+.jumbo-img img{
+  width: 100%;
+}
+
+.jumbotron{
+  background-color: #B4D0E7;
+  padding: 100px auto;
+}
+
+.title-jumbo h1{
+  font-size: 70px;
+
+}
+
+.jumbo-txt button{
+  margin: 30px 0 10px;
+}
+
+.jumbo-txt span{
+  display: block;
+  margin-bottom: 40px;
+}
+
+.fa-arrow-down{
+  font-size: 35px;
+}
+
+/* MAIN */
+
+/* plans */
+
+.title-fact{
+  padding-top: 70px;
+}
+.title-plans {
+  padding-bottom: 50px;
+}
+
+.fact-plans{
+  padding-bottom: 30px;
+}
+.pln-sel a{
+  text-decoration: underline;
+  color: #005AFE;
+}

@@ -1,0 +1,132 @@
+/* 
+  MAIN
+*/
+/* PLANS */
+.fact-plans{
+  cursor: pointer;
+}
+
+.radio{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.sel{
+  border: 5px solid #0161FF;
+}
+.unsel{
+  border: 1px solid #D0D0D3;
+  margin-left: 20px;
+}
+.plans-crd{
+  height: 100%;
+}
+
+.pln-chs, .card{
+  float: left;
+  height: 100%;
+  width: 30%;
+  margin-right: calc((100% - 90%) / 2);
+}
+.third{
+  margin-right: 0;
+}
+.pln-chs, .pln-enter{
+  border: 1px solid #D3D3D6;
+}
+.pln-mod{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #D3D3D6;
+}
+.pln-sel{
+  height: 1000px;
+}
+
+.pln-enter{
+  margin-top: 50px;
+  height: 100%;
+}
+
+.pln-sel h3, .pln-enter h3{
+  font-size: 25px;
+  padding-bottom: 22px;
+}
+
+.price{
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+.incl{
+  padding-bottom: 40px;
+  font-size: 14px;
+  color: #647683;
+}
+.add{
+  font-size: 14px;
+  color: #647683;
+  padding-bottom: 50px;
+}
+.fa-pencil, .smiley{
+  float: left;
+  width: 7%;
+}
+.long{
+  float: left;
+  width: 93%;
+}
+
+
+.lil-line-smll {
+  position: relative;
+  z-index : 1;
+  margin: 20px auto 0;
+  padding-bottom: 20px;
+}
+
+.lil-line-smll:before {
+  content : "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 5px;
+  width: 15%;
+  border-top:1px solid #D0D0D3;
+}
+
+.pln-pnts{
+  list-style: none;
+  padding: 20px;
+}
+.pln-pnts li{
+  padding: 15px 0;
+}
+li:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.2em;
+  width: 1.3em;
+  color: #0161FF;
+}
+
+.pln-enter{
+  margin-top: 50px;
+  height: 100%;
+}
+
+.ent-bttn h3{
+  float: left;
+  width: 30%;
+}
+.ent-bttn button{
+  float: right;
+  width: 30%;
+}
+
+

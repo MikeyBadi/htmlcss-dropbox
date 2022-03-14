@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/debug.css">
   <link rel="stylesheet" href="assets/css/common.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -17,18 +19,39 @@
     <nav>
       
       <!-- Navbar -->
-      <div class="clearfix navbar red">
-        <section class="left-nav-side red"></section> <!-- 600x80 -->
-        <section class="right-nav-side red"></section> <!-- 570x80 -->
+      <div class="clearfix navbar">
+        <section class="left-nav-side clearfix pdd-txt">
+          <img class="nav-elmnt" src="assets/img/logo-small.png" alt="logo dropbox">
+          <a class="nav-elmnt" href="#">Perchè Dropbox?</a>
+          <a class="nav-elmnt" href="#">Funzioni</a>
+          <a class="nav-elmnt" href="#">Piani e prezzi</a>
+        </section> <!-- 600x80 -->
+        <section class="right-nav-side pdd-txt">
+          <a class="nav-elmnt" href="#">Supporto</a>
+          <a class="nav-elmnt" href="#"> Contatta l'ufficio vendite</a>
+          <a class="nav-elmnt" href="#">Accedi</a>
+          <button class="bttn blue small">Inizia</button>
+        </section> <!-- 570x80 -->
       </div>
       <!-- /Navbar -->
 
       <!-- Jumbotron --> <!-- 770px -->
-      <div class="jumbotron green">
-        <section class="title-jumbo green"></section>
+      <div class="jumbotron">
+        <section class="title-jumbo">
+          <h1>Tutto ciò che ti serve per il lavoro,<br> in un unico posto</h1>
+        </section>
         <div class="clearfix">
-          <section class="jumbo-txt green"></section>
-          <section class="jumbo-img green"></section>
+          <section class="jumbo-txt">
+            <p>
+              Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono acessibili dallo stesso posto.<br>Dropbox Business è più di uno spazio di archiviazione sicuro: è in modo intelligente e integrato per ottimizare il flusso di lavoro esistente.
+            </p>
+            <button class="bttn blue big">Inizia la tua prova gratuita</button>
+            <span>annulla in qualsiasi momento</span>
+            <i class="fa-solid fa-arrow-down"></i>
+          </section>
+          <section class="jumbo-img">
+            <img src="assets/img/jumbo.png" alt="">
+          </section>
         </div>
       </div>
       <!-- /Jumbotron -->
@@ -38,67 +61,147 @@
 
   <main>
     <!-- plans -->
-    <div class="plans-crd sctn container yellow">
+    <div class="plans-crd sctn container">
       <div class="title-fact"> <!-- vedere se cancellare la class-->
         <h2 class="title-plans">Trova il piano Dropbox Business che fa per te</h2>
         <section class="fact-plans"> 
           <div>
             <section class="radio sel"></section>
             <span>Fatturazione mensile</span>
+          </div>
+          <div>
             <section class="radio unsel"></section>
-            <span>Fatturazione annuale</span>
+            <span>Fatturazione annuale</span>            
           </div>
         </section>
       </div>
 
       <!-- plans selections -->
       <div class="clearfix">
-        <div class="pln-chs pdd-txt yellow"> <!-- first row-->
-          <section class="pln-mod"></section>
-          <section class="pln-sel">
-
+        
+        <div class="pln-chs"> <!-- first row-->
+          <section class="pln-mod">
+            <i class="fa-regular fa-user"></i>
+            <span>Singolo</span>
           </section>
+          <div class="pln-sel pdd-txt">
 
-          <section class="pln-opt">
+            <section> <!-- description of the plans -->
+              <h3>Professional</h3>
+              <span class="price block">19,99€</span>
+              <span class="block incl">/mese</span>
+              <span class="block pdd-20"><i class="fa-regular fa-user"></i>
+              1 utente</span>
+              <span class="block pdd-20"><i class="fa-regular fa-folder"></i> 3 TB di spazio di archiviazione sicuro</span>
+              <section class="clearfix pdd-20">
+              <i class="fa-solid fa-pencil"></i><span class="long"> Funzioni di produttività premium e condivisione file semplice e sicura</span>
+              </section>
 
-          </section>
+              <button class="bttn blue small full-cont mrgn-30">prova gratis per 30 giorni</button>
+              <span">oppure <a href="#">acquista ora</a></span>              
+            </section>
+            <section class="lil-line-smll"></section>
+            <section>
+              <h4>Punti salienti del piano</h4>
+              <ul class="pln-pnts">
+                <li>Invia file fino a 100GB con Dropbox Transfer</li>
+                <li>Cartelle offline su dispositivi mobili</li>
+                <li>Pulizia remotaa dell'account</li>
+                <li>Filigrana documento</li>
+                <li>Assistenza prioritaria via email e chat</li>
+              </ul>
+            </section>
+          </div>
         </div>
-        <div class="pln-chs pdd-txt yellow"> <!-- second row-->
-          <section class="pln-mod"></section>
-          <section class="pln-sel">
 
+        <div class="pln-chs"> <!-- second row-->
+          <section class="pln-mod">
+            <i class="fa-regular fa-building"></i>
+            <span>Team</span>
           </section>
+          <div class="pln-sel pdd-txt">
 
-          <section class="pln-opt">
+            <section> <!-- description of the plans -->
+              <h3>Standard</h3>
+              <span class="price block">19,99€</span>
+              <span class="block incl">/ utente / mese, a partire da 3 utenti</span>
+              <span class="block pdd-20"><i class="fa-solid fa-user-plus"></i>
+              1 utente</span>
+              <span class="block pdd-20"><i class="fa-regular fa-folder"></i> 3 TB di spazio di archiviazione sicuro</span>
+              <section class="clearfix pdd-20">
+                <i class="fa-regular fa-face-smile smiley"></i><span class="long"> Funzioni di produttività premium e condivisione file semplice e sicura</span>
+              </section>
 
-          </section>
+              <button class="bttn blue small full-cont mrgn-30">prova gratis per 30 giorni</button>
+              <span">oppure <a href="#">acquista ora</a></span>              
+            </section>
+            <section class="lil-line-smll"></section>
+            <section>
+              <h4>Punti salienti del piano</h4>
+              <ul class="pln-pnts">
+                <li>Invia file fino a 100GB con Dropbox Transfer</li>
+                <li>Cartelle offline su dispositivi mobili</li>
+                <li>Pulizia remotaa dell'account</li>
+                <li>Filigrana documento</li>
+                <li>Assistenza prioritaria via email e chat</li>
+              </ul>
+            </section>
+          </div>
         </div>
-        <div class="pln-chs third pdd-txt yellow"> <!-- third row-->
-          <section class="pln-mod"></section>
-          <section class="pln-sel">
 
+        <div class="pln-chs third"> <!-- third row-->
+          <section class="pln-mod">
+            <i class="fa-regular fa-building"></i>
+            <span>Team</span>
           </section>
+          <div class="pln-sel pdd-txt">
 
-          <section class="pln-opt">
+            <section> <!-- description of the plans -->
+              <h3>Advanced</h3>
+              <span class="price block">19,99€</span>
+              <span class="block incl">/ utente / mese, a partire da 3 utenti</span>
+              <span class="block pdd-20"><i class="fa-solid fa-user-plus"></i>
+              1 utente</span>
+              <span class="block pdd-20"><i class="fa-regular fa-face-smile"></i> 3 TB di spazio di archiviazione sicuro</span>
+              <section class="clearfix pdd-20">
+              <i class="fa-solid fa-pencil"></i><span class="long"> Funzioni di produttività premium e condivisione file semplice e sicura</span>
+              </section>
 
-          </section>
+              <button class="bttn blue small full-cont mrgn-30">prova gratis per 30 giorni</button>
+              <span">oppure <a href="#">acquista ora</a></span>              
+            </section>
+            <section class="lil-line-smll"></section>
+            <section>
+              <h4>Punti salienti del piano</h4>
+              <ul class="pln-pnts">
+                <li>Invia file fino a 100GB con Dropbox Transfer</li>
+                <li>Cartelle offline su dispositivi mobili</li>
+                <li>Pulizia remotaa dell'account</li>
+                <li>Filigrana documento</li>
+                <li>Assistenza prioritaria via email e chat</li>
+              </ul>
+            </section>
+          </div>
         </div>
+
       </div>
       <!-- /plans selections -->
 
       <!-- enterprise plan -->
       <div>
-        <div class="pln-enter yellow">
+        <div class="pln-enter">
         <section class="pln-mod">
+          <i class="fa-regular fa-building"></i>
+          <span>Team</span>
         </section>
         <div>
           <div class="ent-txt pdd-txt">
             <section class="clearfix ent-bttn">
               <h3>Enterprise</h3>
-              <button class="bttn-sell">Contatta l'ufficio vendite</button>
+              <button class="bttn-sell bttn blue small full-cont">Contatta l'ufficio vendite</button>
             </section>
-            <h4>Contatta l'ufficio vendite per i prezzi</h4>
-            <p>Soluzioni personalizzate e supporto su misura per aitare i professionisti IT nella gestione dsu qualsiasi scala</p>
+            <h4 class="pdd-30">Contatta l'ufficio vendite per i prezzi</h4>
+            <p>Soluzioni personalizzate e supporto su misura per aitare i professionisti IT nella gestione su qualsiasi scala</p>
           </div>        
         </div>        
       </div>
@@ -245,7 +348,7 @@
         </section>    
       </div>
     </div>
-    <!-- dropbox business -->
+    <!-- /dropbox business -->
 
     <!-- faq -->
     <div class="faq red">
@@ -255,8 +358,64 @@
       <h4>Qual è la differenza tra Dropbox Business Standard e dropbox Business advanced?</h4>  
       <h4 class="last">Qual è la differenza tra Dropbox Business Standard e dropbox Business advanced?</h4>  
     </div>
-    <!-- faq -->
+    <!-- /faq -->
 
+    
   </main>
+  <footer>
+    <!-- info -->
+  
+      <div class="container clearfix">
+  
+        <section class="col col-sec">
+          <h4>Dropbox</h4>
+          <a href="#">Applicazione desktop</a>
+          <a href="#">Perché Dreopbox</a>
+          <a href="#">Piani</a>
+          <a href="#">Sicurezza</a>
+          <a href="#">Sunzioni</a>
+        </section>
+        <section class="col col-sec">
+          <h4>Prodotti</h4>
+          <a href="#">Applicazione desktop</a>
+          <a href="#">Perché Dreopbox</a>
+          <a href="#">Piani</a>
+          <a href="#">Sicurezza</a>
+          <a href="#">Sunzioni</a>
+        </section>
+        <section class="col col-sec">
+          <h4>Azienda</h4>
+          <a href="#">Applicazione desktop</a>
+          <a href="#">Perché Dreopbox</a>
+          <a href="#">Piani</a>
+          <a href="#">Sicurezza</a>
+          <a href="#">Sunzioni</a>
+        </section>
+        <section class="col col-sec">
+          <h4>Supporto</h4>
+          <a href="#">Applicazione desktop</a>
+          <a href="#">Perché Dreopbox</a>
+          <a href="#">Piani</a>
+          <a href="#">Sicurezza</a>
+          <a href="#">Sunzioni</a>
+        </section>
+        <section class="col col-sec">
+          <h4>Comunity</h4>
+          <a href="#">Applicazione desktop</a>
+          <a href="#">Perché Dreopbox</a>
+          <a href="#">Piani</a>
+          <a href="#">Sicurezza</a>
+          <a href="#">Sunzioni</a>
+        </section>
+  
+      </div>
+  
+  
+  
+      <!-- logo&log -->
+    <div class="container btm-pg lil-line">
+      <span>italiano</span>
+    </div>  
+  </footer>
 </body>
 </html>

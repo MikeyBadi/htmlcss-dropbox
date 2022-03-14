@@ -37,3 +37,49 @@ main .plans-crd .fact-plans span{
 .pdd-txt{
   padding: 20px;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.bttn{
+  border: none;
+}
+
+.blue{
+  background-color: #0161FF;
+  color: white;
+}
+
+.small{
+  padding: 7px 16px;
+}
+
+.big{
+  padding: 10px 20px;
+}
+
+.full-cont{
+  width: 100%;
+}
+
+.block{
+  display: block;
+}
+
+.pdd-20{
+  padding-bottom: 20px;
+}
+
+.pdd-30{
+  padding-bottom: 30px;
+}
+
+.pdd-b-50{
+  padding-bottom: 50px;
+}
+
+.mrgn-30{
+  margin: 30px auto;
+}
