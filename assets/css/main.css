@@ -102,7 +102,7 @@
 .pln-pnts li{
   padding: 15px 0;
 }
-li:before {
+.pln-pnts li:before {
   content: "\f00c";
   font-family: FontAwesome;
   display: inline-block;

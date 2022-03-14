@@ -5,6 +5,7 @@
 /* NAVBAR */
 .navbar{
   width: 100%;
+  height: 70px;
   position: fixed;
   background: white;
   z-index: 999;
@@ -14,20 +15,48 @@
 }
 .right-nav-side{
   float: right;
-  height: 65px;
 }
-.nav-elmnt{
-  padding-right: 30px; 
+
+.db-logo{
+  vertical-align: bottom;
+  padding-right: 20px;
+}
+
+.selecting ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.selecting li {
+  float: left;
+}
+.selecting li a{
+  display: block;
   text-align: center;
-  vertical-align: middle; 
+  text-decoration: none;
+  margin: 10px 20px 0;
+  padding: 20px 0;
+}
+
+.selecting li .unline:hover{
+  border-bottom: 2px solid black
+}
+.selecting .db-logo{
+  margin-top: -10px;
+
+}
+.selecting .nav-bttn{
+  margin-top: -10px;
+
 }
 
 /* JUMBOTRON */
 
 .jumbotron{
-  padding: 0 100px;
+  padding: 100px 100px 0;
   width: 100%;
-  height: 600px;
+  height: 710px;
   position: relative;
   top: 65px;
 }
@@ -40,7 +69,7 @@
 
 .jumbo-img{
   float: right;
-  width: 900px;
+  width: 820px;
 }
 
 .jumbo-img img{
