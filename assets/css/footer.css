@@ -7,6 +7,9 @@ footer{
 }
 
 /* info */
+footer{
+  padding-bottom: 40px;
+}
 
 .col{
   float: left;
@@ -32,7 +35,7 @@ footer h4{
   font-size: 20px;
 }
 .col-left{
-padding-right: 30px;
+margin-right: 30px;
 }
 
 .lil-line{
@@ -51,7 +54,8 @@ padding-right: 30px;
 }
 
 .btm-pg span{
-  color: white;
+  color: #999999;
   font-size: 12px;
   margin-top: 30px;
+
 }

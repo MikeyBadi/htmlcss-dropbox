@@ -53,8 +53,16 @@
 
 /* toggle menu */
 #menu li{
-  background-color: white;
-  border-bottom: 1.5px solid black;
+  width: 200px;
+  background-color: #FBFBFB;
+  transition: all .25s ease;
+}
+#menu li:hover{
+  background-color: #EBEAEA;
+
+}
+#menu ul{
+
 }
 #menu li a{
   padding: 0;
@@ -63,10 +71,10 @@
 #menu{
   display: none;
   width: 100px;
+
 }
 #menu-toggle:hover #menu{
   display: block;
-
 }
 
 
