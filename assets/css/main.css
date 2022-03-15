@@ -191,7 +191,10 @@
   min-height: 50%;
   background-color: #F5F5F5;
   margin-top: 50px;
+}
 
+.brands:hover{
+  border: ;
 }
 
 .brands-right{
@@ -223,32 +226,57 @@
 .green{
  background-color: #A2D39B;
 }
+.green:hover{
+ border:10px solid #c6d8c4;
+}
+
 .drkred{
   background-color: #62092B;
+}
+.drkred:hover{
+  border:10px solid #703049;
 }
 
 .turq{
   background-color: #0093CE;
 }
+.turq:hover{
+  border:10px solid #61b4d5;
+}
 
 .lgtred{
   background-color: #FF1D1C;
+}
+.lgtred:hover{
+  border:10px solid #fc6e6e;
 }
 
 .red{
   background-color: #D50020;
 }
+.red:hover{
+  border:10px solid #ca5566;
+}
 
 .azure{
  background-color: #B4D0E7;
+}
+.azure:hover{
+  border:10px solid #dfe0e1;
 }
 
 .blus{
   background-color: #0D2481;
 }
+.blus:hover{
+  border:10px solid #5e6ca3;
+}
 
 .yellow{
  background-color: #FFD830;
+}
+.yellow:hover{
+  border:10px solid #f8e8a2;
 }
 
 #lat{
@@ -306,6 +334,7 @@
 .faq i{
   float: right;
   width: 10%;
+  text-align: right;
 }
 .faq h4{
   float: left;
@@ -320,4 +349,13 @@
 .faq .last{
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
+}
+
+.faq-desc p{
+  padding-top: 30px;
+  display: none;
+}
+
+.faq-desc:hover p{
+  display: block;
 }
