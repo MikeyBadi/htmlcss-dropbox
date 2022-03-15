@@ -333,8 +333,8 @@
 
 .faq i{
   float: right;
-  width: 10%;
-  text-align: right;
+  width: 6%;
+  text-align: center;
 }
 .faq h4{
   float: left;
@@ -358,4 +358,7 @@
 
 .faq-desc:hover p{
   display: block;
+}
+.faq-desc:hover i{
+  transform: rotate(180deg);
 }
